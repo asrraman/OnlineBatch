@@ -22,7 +22,7 @@ public class EmployeeController {
 			.getLogger(EmployeeController.class);
 
 	public EmployeeController() {
-		System.out.println("EmployeeController()");
+		System.out.println("EmployeeController() from constructor");
 	}
 
 	@Autowired
